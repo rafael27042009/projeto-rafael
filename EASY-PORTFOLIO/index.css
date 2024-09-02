@@ -1,0 +1,94 @@
+/* index.css */
+
+/* Reseta alguns estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    color: white;
+    background-color: #121212;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilo da navegação */
+nav {
+    background-color: #1F1F1F;
+    color: white;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #4CAF50;
+}
+
+/* Centraliza o cabeçalho */
+header .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #4CAF50;
+}
+
+/* Estilo da imagem */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #4CAF50;
+}
+
+/* Estilo do main e seções */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #1F1F1F;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #CCCCCC;
+}
+
+/* Centralização de texto */
+.center {
+    text-align: center;
+}
